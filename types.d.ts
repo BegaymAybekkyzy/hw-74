@@ -2,6 +2,6 @@ export interface IMessageRequest {
     message: string;
 }
 
-export interface IMessageResponse extends IMessageRequest {
+export interface IMessage extends IMessageRequest {
     datetime: string;
 }
